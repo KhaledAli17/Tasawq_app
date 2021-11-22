@@ -30,7 +30,7 @@ void main() async {
   //bool onBoarding = CacheHelper.getData(key: 'onBoarding');
   bool splash = CacheHelper.getData(key: 'splash');
   token = CacheHelper.getData(key: 'token');
- // print('token :' + token);
+ //  print('token :' + token);
 
   if (splash != null) {
     if (token != null)
